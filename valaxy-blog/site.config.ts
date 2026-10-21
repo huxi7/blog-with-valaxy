@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖 Valaxy 的站点配置接口与个人公开资料。
+ * [OUTPUT]: 导出博客身份、社交链接与内容选项。
+ * [POS]: 博客公开资料的唯一配置入口；主题读取此配置。
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
 import { defineSiteConfig } from "valaxy";
 
 export default defineSiteConfig({
@@ -32,7 +38,7 @@ export default defineSiteConfig({
     // },
     {
       name: "GitHub",
-      link: "https://github.com/solink7",
+      link: "https://github.com/huxi7",
       icon: "i-ri-github-line",
       color: "#6e5494",
     },
